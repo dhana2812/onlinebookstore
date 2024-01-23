@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhana2812_onlinebookstore_1705993883071-pr-trigger-input-set
+  identifier: Build_dhana2812_onlinebookstore_1705993883071prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_dhana2812_onlinebookstore_1705993883071
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
